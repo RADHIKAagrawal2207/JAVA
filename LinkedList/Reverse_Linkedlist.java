@@ -1,4 +1,4 @@
-package JAVA.LinkedList;
+//package JAVA.LinkedList;
 //import java.util.*;
 class ListNode {
     int val;

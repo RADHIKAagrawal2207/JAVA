@@ -1,4 +1,4 @@
-package JAVA.LinkedList;
+//package JAVA.LinkedList;
 
 public class MiddleNode {
     /**
