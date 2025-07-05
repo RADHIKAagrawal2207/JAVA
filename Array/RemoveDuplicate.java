@@ -1,0 +1,22 @@
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class RemoveDuplicate {
+    class Solution {
+    public int removeDuplicates(int[] nums) {
+        Set<Integer> set = new LinkedHashSet<>();
+        
+        for (int num : nums) {
+            set.add(num);
+        }
+
+        int i = 0;
+        for (int num : set) {
+            nums[i++] = num;
+        }
+
+        return set.size();
+    }
+}
+
+}
